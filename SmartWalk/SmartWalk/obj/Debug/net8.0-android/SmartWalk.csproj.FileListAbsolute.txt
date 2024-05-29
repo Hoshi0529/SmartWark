@@ -1,0 +1,13 @@
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\build.props
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\adb.props
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\_CompileBindingJava.FileList.txt
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\SmartWalk.csproj.AssemblyReference.cache
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\mauiimage.inputs
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\mauifont.inputs
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\mauisplash.inputs
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\mauisplash.stamp
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\mauifont.stamp
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\mauiimage.stamp
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\SmartWalk.dll
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\SmartWalk.pdb

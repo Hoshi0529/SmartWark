@@ -1,0 +1,1 @@
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\SmartWalk.csproj;x64

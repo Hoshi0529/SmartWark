@@ -1,12 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\youta\\VS2022\\Share0517\\SmartWalk\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\youta\\SmartWark\\SmartWalk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\smartwalk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\smartwalk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "SmartWalk\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MauiProgram.cs",
+              "RelativeToolTip": "SmartWalk\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:02:39.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "SmartWalk\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "SmartWalk\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:02:17.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmartWalk",
+              "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\SmartWalk.csproj",
+              "RelativeDocumentMoniker": "SmartWalk\\SmartWalk.csproj",
+              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\SmartWalk.csproj",
+              "RelativeToolTip": "SmartWalk\\SmartWalk.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-29T05:02:11.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
