@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\youta\\SmartWark\\SmartWalk\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\smartwalk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\smartwalk.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|c:\\users\\youta\\smartwark\\smartwalk\\smartwalk\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4FD341B-624D-4B2E-B8D7-5EC9994E9361}|SmartWalk\\SmartWalk.csproj|solutionrelative:smartwalk\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml",
+              "RelativeDocumentMoniker": "SmartWalk\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml",
+              "RelativeToolTip": "SmartWalk\\MainPage.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T07:04:21.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\AppShell.xaml",
+              "RelativeDocumentMoniker": "SmartWalk\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\AppShell.xaml",
+              "RelativeToolTip": "SmartWalk\\AppShell.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T07:03:27.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\App.xaml",
+              "RelativeDocumentMoniker": "SmartWalk\\App.xaml",
+              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\App.xaml",
+              "RelativeToolTip": "SmartWalk\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T07:02:42.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "SmartWalk\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\AppShell.xaml.cs",
+              "RelativeToolTip": "SmartWalk\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:02:31.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "SmartWalk\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml.cs",
+              "RelativeToolTip": "SmartWalk\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:58:15.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MauiProgram.cs",
               "RelativeDocumentMoniker": "SmartWalk\\MauiProgram.cs",
@@ -39,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "SmartWalk\\Platforms\\Android\\MainActivity.cs",
@@ -52,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SmartWalk",
               "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\SmartWalk.csproj",
               "RelativeDocumentMoniker": "SmartWalk\\SmartWalk.csproj",
