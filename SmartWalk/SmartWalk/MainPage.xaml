@@ -29,7 +29,7 @@
                 
                 <Label Text="今日の総歩数" Grid.Row="0" Grid.Column="0" />
                 <Label Text="今回の豆知識" Grid.Row="1" Grid.Column="0" />
-                <Label Text="豆知識表示" Grid.Row="2" Grid.Column="0" />
+                <Label Text="豆知識表示" x:Name="tishiki" Grid.Row="2" Grid.Column="0" />
                 <VerticalStackLayout  Grid.Row="3" Grid.Column="0" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
                     <Button Text="賢くなる" x:Name="smart" WidthRequest="120" HeightRequest="40" />
                 </VerticalStackLayout>
@@ -40,7 +40,7 @@
 
                 <Label Text="ボケレベル "  Grid.Row="0" Grid.Column="2" />
                 <Label Text="ボケるまで残り" Grid.Row="1" Grid.Column="2" />
-                <Label Text="運勢" Grid.Row="2" Grid.Column="2" />
+                <Label Text="運勢" x:Name="unsei" Grid.Row="2" Grid.Column="2" />
                 <VerticalStackLayout  Grid.Row="3" Grid.Column="2" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
                     <Button Text="今日の運だめし" x:Name="Lucky" WidthRequest="130" HeightRequest="40" />
                 </VerticalStackLayout>

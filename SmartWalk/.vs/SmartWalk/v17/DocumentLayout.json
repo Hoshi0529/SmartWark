@@ -72,8 +72,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.95\\tools\\Xamarin.Android.Aapt2.targets",
               "ViewState": "AQIAAM0AAAAAAAAAAAAWwNUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-04T06:10:44.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T06:10:44.504Z"
             },
             {
               "$type": "Document",
@@ -107,7 +106,7 @@
               "RelativeDocumentMoniker": "SmartWalk\\MainPage.xaml",
               "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml",
               "RelativeToolTip": "SmartWalk\\MainPage.xaml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAqwCYAAABPAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAqwB8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-29T07:04:21.366Z",
               "EditorCaption": ""
@@ -120,7 +119,7 @@
               "RelativeDocumentMoniker": "SmartWalk\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml.cs",
               "RelativeToolTip": "SmartWalk\\MainPage.xaml.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAqwEYAAAAAAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAqwFsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T06:58:15.986Z",
               "EditorCaption": ""
@@ -159,8 +158,7 @@
               "RelativeToolTip": "SmartWalk\\MauiProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T05:02:39.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T05:02:39.349Z"
             },
             {
               "$type": "Document",
@@ -171,8 +169,7 @@
               "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\SmartWalk.csproj",
               "RelativeToolTip": "SmartWalk\\SmartWalk.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-29T05:02:11.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T05:02:11.929Z"
             }
           ]
         }

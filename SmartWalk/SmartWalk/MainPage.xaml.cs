@@ -60,17 +60,17 @@
             InitializeComponent();
         }
 
-        private void smartClicked(object sender, EventArgs e)
+        public void smartClicked(object sender, EventArgs e)
         {
-         if (count > 0)
+         if (count >= 0)
             {
 
 
 
 
+                String Y = "";
 
-
-
+                tishiki.Text = Y;
             }
             else
             {
@@ -78,18 +78,19 @@
             }
            
         }
-        private void LuckyClicked(object sender, EventArgs e)
+        public void LuckyClicked(object sender, EventArgs e)
         {
-            if(count==5)
-            {
+            
+            
                 Random o = new Random();
                 int randomValue1 = o.Next(1,5);
                 int j = randomValue1;
 
                 String R = un [j];
 
-                Console.WriteLine(R);
-            }
+                unsei.Text = R;
+            
+              
         }
     }
 
