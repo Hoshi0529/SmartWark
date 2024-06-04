@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\youta\SmartWark\SmartWalk\SmartWalk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-04T01:37:29.003</Modified>
+      <Modified>2024-06-04T03:20:51.284</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\youta\SmartWark\SmartWalk\SmartWalk\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SmartWalk.dll">
       <PackagePath>SmartWalk.dll</PackagePath>
-      <Modified>2024-06-04T01:37:28.153</Modified>
+      <Modified>2024-06-04T03:20:50.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SmartWalk.exe</PackagePath>
-      <Modified>2024-06-04T01:37:28.193</Modified>
+      <Modified>2024-06-04T03:20:50.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\youta\SmartWark\SmartWalk\SmartWalk\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

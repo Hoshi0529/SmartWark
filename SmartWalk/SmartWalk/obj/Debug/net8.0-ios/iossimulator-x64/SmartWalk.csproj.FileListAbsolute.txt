@@ -311,3 +311,4 @@ C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-ios\iossimulator-x
 C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-ios\iossimulator-x64\SmartWalk.pdb
 C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-ios\iossimulator-x64\SmartWalk.genruntimeconfig.cache
 C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-ios\iossimulator-x64\ref\SmartWalk.dll
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature

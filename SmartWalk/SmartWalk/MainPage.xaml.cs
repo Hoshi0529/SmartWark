@@ -2,10 +2,10 @@
 {
     public partial class MainPage : ContentPage
     {
-       
-        String[] mame5 =new string[] { 
-        
-       
+
+        String[] mame5 = new string[] {
+
+
         "S-1.缶詰のオイルやサラダ油で簡易的なランプをつくることができる",
         "S-2.硬い肉はコーラなどの炭酸飲料で柔らかくなる",
         "S-3.掛け布団の上に毛布をかけた方が温かい。",
@@ -18,7 +18,7 @@
         "A-3.車に酔いやすい場合、イヤフォンなどで音楽を聴いていると酔いづらくなる。",
         "A-4.切れた電池は擦れば復活する",
         "A-5こびりついた油汚れはレモンで楽に落とせる"
-        }; 
+        };
         String[] mame3 = new string[] {
         "B-1電話で「#7119」にかけると、救急車を呼ぶかどうか迷った時に対応してくれる所にかかる。",
         "B-2エアコンの室外機を日光に当たらないようにするだけで電気代を節約することができる。",
@@ -40,7 +40,19 @@
         "D-5.右足をだし左足をだすを繰り返すと歩ける。さらに、速度をあげると走れる"
          };
 
-        String shutoku = "";
+        String[] un = new string[]
+        { 
+            "大吉",
+            "中吉",
+            "小吉",
+            "吉",
+            "凶",
+            "大凶",
+            "老害"
+        };
+
+       // String shutoku = "";
+        int count = 0;
 
 
         public MainPage()
@@ -50,13 +62,34 @@
 
         private void smartClicked(object sender, EventArgs e)
         {
-         
+         if (count > 0)
+            {
 
+
+
+
+
+
+
+            }
+            else
+            {
+                
+            }
            
         }
-        private void luckyClicked(object sender, EventArgs e)
+        private void LuckyClicked(object sender, EventArgs e)
         {
+            if(count==5)
+            {
+                Random o = new Random();
+                int randomValue1 = o.Next(1,5);
+                int j = randomValue1;
 
+                String R = un [j];
+
+                Console.WriteLine(R);
+            }
         }
     }
 
