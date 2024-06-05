@@ -1,8 +1,10 @@
-﻿namespace SmartWalk
+﻿using System.Diagnostics;
+
+namespace SmartWalk
 {
     public partial class MainPage : ContentPage
     {
-
+        public static Microsoft.Maui.Devices.Sensors.IGeolocation Default { get; }
         String[] mame5 = new string[] {
 
 
@@ -60,11 +62,13 @@
             InitializeComponent();
         }
 
+
+
         public void smartClicked(object sender, EventArgs e)
         {
          if (count >= 0)
             {
-
+                
 
 
 
@@ -80,18 +84,16 @@
         }
         public void LuckyClicked(object sender, EventArgs e)
         {
-            
-            
                 Random o = new Random();
-                int randomValue1 = o.Next(1,5);
+                int randomValue1 = o.Next(0,5);
                 int j = randomValue1;
 
                 String R = un [j];
 
-                unsei.Text = R;
+               unsei.Text = R;
             
               
         }
+       
     }
-
 }
