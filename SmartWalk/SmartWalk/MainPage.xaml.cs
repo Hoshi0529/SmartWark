@@ -5,6 +5,8 @@ namespace SmartWalk
     public partial class MainPage : ContentPage
     {
         public static Microsoft.Maui.Devices.Sensors.IGeolocation Default { get; }
+        public interface IGeolocation;
+        public class GeolocationRequest;
         String[] mame5 = new string[] {
 
 
