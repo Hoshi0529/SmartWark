@@ -4,9 +4,77 @@ namespace SmartWalk
 {
     public partial class MainPage : ContentPage
     {
-        public static Microsoft.Maui.Devices.Sensors.IGeolocation Default { get; }
-        public interface IGeolocation;
-        public class GeolocationRequest;
+        //現在の位置情報を取得する
+        private CancellationTokenSource _cancelTokenSource;
+        private bool _isCheckingLocation;
+
+        public async Task GetCurrentLocation()
+        {
+            try
+            {
+                _isCheckingLocation = true;
+
+                GeolocationRequest request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
+
+                _cancelTokenSource = new CancellationTokenSource();
+
+                Location location2 = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
+
+                if (location2 != null)
+                    Console.WriteLine($"Latitude: {location2.Latitude}, Longitude: {location2.Longitude}, Altitude: {location2.Altitude}");
+            }
+            // Catch one of the following exceptions:
+            //   FeatureNotSupportedException
+            //   FeatureNotEnabledException
+            //   PermissionException
+            catch (Exception ex)
+            {
+                // Unable to get location
+            }
+            finally
+            {
+                _isCheckingLocation = false;
+            }
+        }
+
+        //最新の位置情報を取得する
+        public void CancelRequest()
+        {
+            if (_isCheckingLocation && _cancelTokenSource != null && _cancelTokenSource.IsCancellationRequested == false)
+                _cancelTokenSource.Cancel();
+        }
+
+        public async Task<string> GetCachedLocation()
+        {
+            try
+            {
+                Location location1 = await Geolocation.Default.GetLastKnownLocationAsync();
+
+                if (location1 != null)
+                    return $"Latitude: {location1.Latitude}, Longitude: {location1.Longitude}, Altitude: {location1.Altitude}";
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                // Handle not supported on device exception
+            }
+            catch (FeatureNotEnabledException fneEx)
+            {
+                // Handle not enabled on device exception
+            }
+            catch (PermissionException pEx)
+            {
+                // Handle permission exception
+            }
+            catch (Exception ex)
+            {
+                // Unable to get location
+            }
+
+            return "None";
+        }
+
+
+        //豆知識の箱
         String[] mame5 = new string[] {
 
 
@@ -43,7 +111,7 @@ namespace SmartWalk
         "D-4.排水溝の汚れを取りたいときは、酸性の汚れを取る重曹で擦る次にアルカリ性の汚れを取るクエン酸を混ぜ合わせることで二酸化炭素が発生する。",
         "D-5.右足をだし左足をだすを繰り返すと歩ける。さらに、速度をあげると走れる"
          };
-
+        //おみくじの箱
         String[] un = new string[]
         { 
             "大吉",
@@ -55,24 +123,27 @@ namespace SmartWalk
             "老害"
         };
 
-       // String shutoku = "";
+          Location maeshutoku ;
         int count = 0;
 
 
         public MainPage()
         {
             InitializeComponent();
+
         }
 
 
 
         public void smartClicked(object sender, EventArgs e)
         {
+
+
          if (count >= 0)
             {
                 
 
-
+              
 
                 String Y = "";
 
