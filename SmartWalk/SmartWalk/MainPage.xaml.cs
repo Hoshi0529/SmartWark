@@ -4,6 +4,7 @@ namespace SmartWalk
 {
     public partial class MainPage : ContentPage
     {
+        Location location2;
         //現在の位置情報を取得する
         private CancellationTokenSource _cancelTokenSource;
         private bool _isCheckingLocation;
@@ -113,7 +114,7 @@ namespace SmartWalk
          };
         //おみくじの箱
         String[] un = new string[]
-        { 
+        {
             "大吉",
             "中吉",
             "小吉",
@@ -123,7 +124,7 @@ namespace SmartWalk
             "老害"
         };
 
-          Location maeshutoku ;
+        Location maeshutoku;
         int count = 0;
 
 
@@ -137,36 +138,22 @@ namespace SmartWalk
 
         public void smartClicked(object sender, EventArgs e)
         {
+            String o = (location2.Latitude).ToString();
 
-
-         if (count >= 0)
-            {
-                
-
-              
-
-                String Y = "";
-
-                tishiki.Text = Y;
-            }
-            else
-            {
-                
-            }
-           
+            tishiki.Text = o;
         }
         public void LuckyClicked(object sender, EventArgs e)
         {
-                Random o = new Random();
-                int randomValue1 = o.Next(0,5);
-                int j = randomValue1;
+            Random o = new Random();
+            int randomValue1 = o.Next(0, 5);
+            int j = randomValue1;
 
-                String R = un [j];
+            String R = un[j];
 
-               unsei.Text = R;
-            
-              
+            unsei.Text = R;
+
+
         }
-       
+
     }
 }
