@@ -1,10 +1,15 @@
 ﻿using System.Diagnostics;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace SmartWalk
 {
     public partial class MainPage : ContentPage
     {
         Location location2;
+        double o;
+        double k;
+        double y;
+        double m;
         //現在の位置情報を取得する
         private CancellationTokenSource _cancelTokenSource;
         private bool _isCheckingLocation;
@@ -19,10 +24,17 @@ namespace SmartWalk
 
                 _cancelTokenSource = new CancellationTokenSource();
 
-                Location location2 = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
+                location2 = await Geolocation.Default.GetLocationAsync(request, _cancelTokenSource.Token);
 
                 if (location2 != null)
+                {
+                    k = o;
+                    m = y;
                     Console.WriteLine($"Latitude: {location2.Latitude}, Longitude: {location2.Longitude}, Altitude: {location2.Altitude}");
+                     o = (location2.Latitude);
+                     y = (location2.Longitude);
+                    
+                }
             }
             // Catch one of the following exceptions:
             //   FeatureNotSupportedException
@@ -38,43 +50,7 @@ namespace SmartWalk
             }
         }
 
-        //最新の位置情報を取得する
-        public void CancelRequest()
-        {
-            if (_isCheckingLocation && _cancelTokenSource != null && _cancelTokenSource.IsCancellationRequested == false)
-                _cancelTokenSource.Cancel();
-        }
-
-        public async Task<string> GetCachedLocation()
-        {
-            try
-            {
-                Location location1 = await Geolocation.Default.GetLastKnownLocationAsync();
-
-                if (location1 != null)
-                    return $"Latitude: {location1.Latitude}, Longitude: {location1.Longitude}, Altitude: {location1.Altitude}";
-            }
-            catch (FeatureNotSupportedException fnsEx)
-            {
-                // Handle not supported on device exception
-            }
-            catch (FeatureNotEnabledException fneEx)
-            {
-                // Handle not enabled on device exception
-            }
-            catch (PermissionException pEx)
-            {
-                // Handle permission exception
-            }
-            catch (Exception ex)
-            {
-                // Unable to get location
-            }
-
-            return "None";
-        }
-
-
+       
         //豆知識の箱
         String[] mame5 = new string[] {
 
@@ -131,16 +107,21 @@ namespace SmartWalk
         public MainPage()
         {
             InitializeComponent();
-
+            GetCurrentLocation();
         }
 
 
 
         public void smartClicked(object sender, EventArgs e)
         {
-            String o = (location2.Latitude).ToString();
+            double kyori = (k - o);
+            double mitinori = (m - y);
 
-            tishiki.Text = o;
+            maedesu.Text = kyori.ToString();
+            maenano.Text = mitinori.ToString();
+
+
+
         }
         public void LuckyClicked(object sender, EventArgs e)
         {

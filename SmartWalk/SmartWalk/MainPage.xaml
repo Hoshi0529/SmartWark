@@ -17,6 +17,10 @@
                     <RowDefinition Height="50" />
                     <RowDefinition Height="20" />
                     <RowDefinition Height="20" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="20" />
                 </Grid.RowDefinitions>
                 
                 <Grid.ColumnDefinitions>
@@ -26,6 +30,10 @@
                     <ColumnDefinition Width="150" />
                     <ColumnDefinition Width="150" />
                     <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="150" />
                 </Grid.ColumnDefinitions>
                 
                 <Label Text="今日の総歩数" Grid.Row="0" Grid.Column="0" />
@@ -48,6 +56,11 @@
 
                 <Label Text="0" x:Name="boke" Grid.Row="0" Grid.Column="3"/>
                 <Label Text="0" x:Name="countboke" Grid.Row="1" Grid.Column="3"/>
+
+                <Label Text="0" x:Name="maedesu" Grid.Row="6" Grid.Column="0"/>
+                <Label Text="0" x:Name="maenano" Grid.Row="7" Grid.Column="1"/>
+
+
 
             </Grid>
         </VerticalStackLayout>

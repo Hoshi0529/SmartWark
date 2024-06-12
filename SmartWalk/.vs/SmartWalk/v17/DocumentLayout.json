@@ -30,9 +30,9 @@
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "SmartWalk\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml.cs*",
-              "RelativeToolTip": "SmartWalk\\MainPage.xaml.cs*",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwIwAAAASAAAA",
+              "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml.cs",
+              "RelativeToolTip": "SmartWalk\\MainPage.xaml.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAAHkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T06:58:15.986Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "SmartWalk\\Platforms\\Android\\MainActivity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T06:02:49.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T06:02:49.778Z"
             },
             {
               "$type": "Document",
@@ -58,7 +57,7 @@
               "RelativeDocumentMoniker": "SmartWalk\\MainPage.xaml",
               "ToolTip": "C:\\Users\\youta\\SmartWark\\SmartWalk\\SmartWalk\\MainPage.xaml",
               "RelativeToolTip": "SmartWalk\\MainPage.xaml",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAABoAAAA0AAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-29T07:04:21.366Z",
               "EditorCaption": ""
