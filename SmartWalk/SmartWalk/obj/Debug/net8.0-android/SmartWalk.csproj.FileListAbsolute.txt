@@ -1037,3 +1037,4 @@ C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\stamp\_Con
 C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-android\mauiimage.outputs
