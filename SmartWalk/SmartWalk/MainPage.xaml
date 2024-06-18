@@ -13,8 +13,8 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="20" />
                     <RowDefinition Height="20" />
-                    <RowDefinition Height="30" />
-                    <RowDefinition Height="50" />
+                    <RowDefinition Height="160" />
+                    <RowDefinition Height="60" />
                     <RowDefinition Height="20" />
                     <RowDefinition Height="20" />
                     <RowDefinition Height="20" />
@@ -26,8 +26,8 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="110" />
                     <ColumnDefinition Width="80" />
-                    <ColumnDefinition Width="150"/>
-                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="170"/>
+                    <ColumnDefinition Width="170" />
                     <ColumnDefinition Width="150" />
                     <ColumnDefinition Width="80" />
                     <ColumnDefinition Width="150" />

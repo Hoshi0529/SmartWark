@@ -33,7 +33,7 @@ namespace SmartWalk
                     Console.WriteLine($"Latitude: {location2.Latitude}, Longitude: {location2.Longitude}, Altitude: {location2.Altitude}");
                     nowlatitude = (location2.Latitude);
                     nowlongitude = (location2.Longitude);
-                    
+
                 }
             }
             // Catch one of the following exceptions:
@@ -53,7 +53,7 @@ namespace SmartWalk
 
         //豆知識の箱
         // 5行5列の2次元配列
-        String[,] mame = new string[5,5] {
+        String[,] mame = new string[5, 5] {
             {
         "S-1.缶詰のオイルやサラダ油で簡易的なランプをつくることができる",
         "S-2.硬い肉はコーラなどの炭酸飲料で柔らかくなる",
@@ -78,14 +78,14 @@ namespace SmartWalk
         "C-1.「のりたま」にはこしあんが入っている。",
         "C-2.現在の日本では、馬で公道を走ることができる。",
         "C-3.紙幣と硬貨は発行元が違う。",
-        "C-4.サイコロは６面それぞれの穴の数によって重量に誤差が出る為、出る目の確率は均等ではない。※一番出やすい目の数は５だと言われている。",
+        "C-4.サイコロは６面それぞれの穴の数によって重量に誤差が出る為、出る目の確率は均等ではない。",
         "C-5.スイカは腐ると爆発する。"
         },
         {
         "D-1.人の首を切り落とし、頭をボールの代わりに蹴って遊んでいたのがサッカーの始まり。",
         "D-2.思うつぼ」の壺は、博打でサイコロを振るときに使う壺のこと",
         "D-3.スマホにおしりふきのカバーを張り付けると小銭入れになる",
-        "D-4.排水溝の汚れを取りたいときは、酸性の汚れを取る重曹で擦る次にアルカリ性の汚れを取るクエン酸を混ぜ合わせることで二酸化炭素が発生する。",
+        "D-4.排水溝の汚れを取りたいときは、酸性の重曹とアルカリ性のクエン酸を混ぜ合わせることで二酸化炭素が発生する。",
         "D-5.右足をだし左足をだすを繰り返すと歩ける。さらに、速度をあげると走れる"
          }
     };
@@ -107,6 +107,7 @@ namespace SmartWalk
         int totalstep;
         int count = 0;
         int step;
+        int j = 0;
 
 
         public MainPage()
@@ -115,74 +116,72 @@ namespace SmartWalk
             GetCurrentLocation();
             distance = Math.Sqrt((Math.Pow(beforlatitude - nowlatitude, 2) + Math.Pow(beforlongitude - nowlongitude, 2)));
             Console.WriteLine(distance);
-
-           
         }
+
+
 
         public void MainPage_Load(object sender, EventArgs e)
         {
-            if (judge == true)
+            double a = (distance * 7) / 10;
+            step = (int)a;
+            if (step < 0)
             {
-                double a = (distance * 7) / 10;
-                step = (int)a;
-                while (a >= 1)
+                step = step * (-1);
+            }
+            while (a > 0)
+            {
+                double b = a - step;
+                if (b >= 0.5)
                 {
-                    a--;
-                    if (a >= 0.5)
+                    step++;
+                    maedesu.Text = step.ToString();
+                    for ( j =0; step > 100; j++)
                     {
-                        step++;
-                        maedesu.Text = step.ToString();
-                    }
-                    else if (a > 0)
-                    {
-                        maedesu.Text = step.ToString();
-                    }
-                    else
-                    {
-                        return;
+                       
+                        step -= 100;
                     }
                 }
-                if (step >= 100)
+                else
                 {
-                    count++;
-                    step -= 100;
+                    maedesu.Text = step.ToString();
+
                 }
             }
-            else
-            {
-                int b = (int)((distance * 8) / 10);
-                maedesu.Text = distance.ToString();
-                if (b >= 100)
-                {
-                    count++;
-                    b -= 100;
-                }
-            }
+
             totaldistance += distance;
             totalstep += step;
         }
 
+          
+        
+        
         public void smartClicked(object sender, EventArgs e)
         {
-
-            if (count > 0)
+                 if (step / 100 == 0) 
+                 {        
+                     
+                             }
+            if (judge == true)
             {
-                count--;
-                uncount++;
-                Random o = new Random();
-                int randomValue1 = o.Next(0, 5);
-                int j = randomValue1;
-                Random v = new Random();
-                int f = v.Next(0, 5);
-                String R = mame[j, f];
-                tishiki.Text = R;
-            }
-            else
-            {
-                String R = "まだその時ではない";
-                tishiki.Text =R;
-            }
-
+                for (int i = 0; i < count; i++)
+                {
+                    count--;
+                    uncount++;
+                    Random o = new Random();
+                    int randomValue1 = o.Next(0, 5);
+                    int j = randomValue1;
+                    Random v = new Random();
+                    int f = v.Next(0, 5);
+                    String R = mame[j, f];
+                    tishiki.Text = R;
+                }
+             }
+                else
+                {
+                    String C = "まだその時ではない";
+                    tishiki.Text = C;
+                }
+            
         }
         public void LuckyClicked(object sender, EventArgs e)
         {
@@ -193,6 +192,10 @@ namespace SmartWalk
                 int j = randomValue1;
                 String R = un[j];
                 unsei.Text = R;
+            }
+            else
+            {
+                unsei.Text = "もっと歩きましょう";
             }
         }
     }
