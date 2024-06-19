@@ -127,29 +127,27 @@ namespace SmartWalk
             if (step < 0)
             {
                 step = step * (-1);
+                return;
             }
-            while (a > 0)
+            else
             {
-                double b = a - step;
-                if (b >= 0.5)
+                while (a > 0)
                 {
-                    step++;
-                    maedesu.Text = step.ToString();
-                    for ( j =0; step > 100; j++)
+                    double b = a - step;
+                    if (b >= 0.5)
                     {
-                       
-                        step -= 100;
+                        step++;
+                        maedesu.Text = step.ToString();
+                    }
+                    else
+                    {
+                        maedesu.Text = step.ToString();
                     }
                 }
-                else
-                {
-                    maedesu.Text = step.ToString();
 
-                }
+                totaldistance += distance;
+                totalstep += step;
             }
-
-            totaldistance += distance;
-            totalstep += step;
         }
 
           
@@ -157,10 +155,6 @@ namespace SmartWalk
         
         public void smartClicked(object sender, EventArgs e)
         {
-                 if (step / 100 == 0) 
-                 {        
-                     
-                             }
             if (judge == true)
             {
                 for (int i = 0; i < count; i++)

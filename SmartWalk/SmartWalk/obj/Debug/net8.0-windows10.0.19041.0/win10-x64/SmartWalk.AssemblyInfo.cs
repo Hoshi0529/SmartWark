@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartWalk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e464d1c36ee3fa081e97e19b9a033147046d525a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+93a318684cc40b41bbf3b3c2f9b30a0eec2c067c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartWalk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartWalk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
