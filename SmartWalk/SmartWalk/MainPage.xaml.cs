@@ -10,9 +10,11 @@ namespace SmartWalk
         double nowlongitude;
         double beforlatitude;
         double beforlongitude;
+        private Timer _timer;
         //現在の位置情報を取得する
         private CancellationTokenSource _cancelTokenSource;
         private bool _isCheckingLocation;
+        
 
         public async Task GetCurrentLocation()
         {
@@ -35,6 +37,8 @@ namespace SmartWalk
                     nowlongitude = (location2.Longitude);
 
                 }
+
+
             }
             // Catch one of the following exceptions:
             //   FeatureNotSupportedException
@@ -113,16 +117,20 @@ namespace SmartWalk
         public MainPage()
         {
             InitializeComponent();
-            GetCurrentLocation();
-            distance = Math.Sqrt((Math.Pow(beforlatitude - nowlatitude, 2) + Math.Pow(beforlongitude - nowlongitude, 2)));
-            Console.WriteLine(distance);
+            
         }
 
 
-
-        public void MainPage_Load(object sender, EventArgs e)
+       
+        public void  ScheduleWorkManagerJob(object sender, EventArgs e)
         {
-            double a = (distance * 7) / 10;
+        GetCurrentLocation();
+        distance = Math.Sqrt((Math.Pow(beforlatitude - nowlatitude, 2) + Math.Pow(beforlongitude - nowlongitude, 2)));
+        Console.WriteLine(distance);
+     
+
+
+        double a = (distance * 7) / 10;
             step = (int)a;
             if (step < 0)
             {
@@ -149,10 +157,8 @@ namespace SmartWalk
                 totalstep += step;
             }
         }
-
-          
-        
-        
+       
+    
         public void smartClicked(object sender, EventArgs e)
         {
             if (judge == true)
@@ -175,6 +181,11 @@ namespace SmartWalk
                     String C = "まだその時ではない";
                     tishiki.Text = C;
                 }
+
+            for (int p=0; p == uncount;p++)
+            {
+                Lvel.Text = "ボケレベル Lv"+p;
+            }
             
         }
         public void LuckyClicked(object sender, EventArgs e)

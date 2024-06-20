@@ -35,30 +35,30 @@
                     <ColumnDefinition Width="150" />
                     <ColumnDefinition Width="150" />
                 </Grid.ColumnDefinitions>
-                
-                <Label Text="今日の総歩数" Grid.Row="0" Grid.Column="0" />
-                <Label Text="今回の豆知識" Grid.Row="1" Grid.Column="0" />
-                <Label Text="豆知識表示" x:Name="tishiki" Grid.Row="2" Grid.Column="0" />
+
+                <Label Text="今日の総歩数" FontAutoScalingEnabled="True" Grid.Row="0" Grid.Column="0" />
+                <Label Text="今回の豆知識" FontAutoScalingEnabled="True" Grid.Row="1" Grid.Column="0" />
+                <Label Text="豆知識表示" FontAutoScalingEnabled="True" x:Name="tishiki" Grid.Row="2" Grid.Column="0" />
                 <VerticalStackLayout  Grid.Row="3" Grid.Column="0" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
-                    <Button Text="賢くなる" x:Name="smart" Clicked="smartClicked" WidthRequest="120" HeightRequest="40" />
+                    <Button Text="賢くなる" x:Name="smart" FontAutoScalingEnabled="True" Clicked="smartClicked" WidthRequest="120" HeightRequest="40" />
                 </VerticalStackLayout>
-                <Label Text="取得豆知識"  Grid.Row="4" Grid.Column="0"/>
-                <Label Text="Nodate" Grid.Row="5" Grid.Column="0"/>
+                <Label Text="取得豆知識"  FontAutoScalingEnabled="True" Grid.Row="4" Grid.Column="0"/>
+                <Label Text="Nodate"  FontAutoScalingEnabled="True" Grid.Row="5" Grid.Column="0"/>
 
-                <Label Text="総歩数" x:Name="walk" Grid.Row="0" Grid.Column="1" />
+                <Label Text="総歩数"  FontAutoScalingEnabled="True" x:Name="walk" Grid.Row="0" Grid.Column="1" />
 
-                <Label Text="ボケレベル "  Grid.Row="0" Grid.Column="2" />
-                <Label Text="ボケるまで残り" Grid.Row="1" Grid.Column="2" />
-                <Label Text="運勢" x:Name="unsei" Grid.Row="2" Grid.Column="2" />
-                <VerticalStackLayout  Grid.Row="3" Grid.Column="2" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
-                    <Button Text="今日の運だめし" x:Name="Lucky" Clicked="LuckyClicked" WidthRequest="130" HeightRequest="40" />
+                <Label Text="ボケレベル "  FontAutoScalingEnabled="True" x:Name="Lvel" Grid.Row="0" Grid.Column="2" />
+                <Label Text="ボケるまで残り"  FontAutoScalingEnabled="True" Grid.Row="1" Grid.Column="2" />
+                <Label Text="運勢" x:Name="unsei" FontAutoScalingEnabled="True" Grid.Row="2" Grid.Column="2" />
+                <VerticalStackLayout  Grid.Row="3"   Grid.Column="2" Spacing="10" Padding="10,0" VerticalOptions="CenterAndExpand">
+                    <Button Text="今日の運だめし"  FontAutoScalingEnabled="True" x:Name="Lucky" Clicked="LuckyClicked" WidthRequest="130" HeightRequest="40" />
                 </VerticalStackLayout>
 
-                <Label Text="0" x:Name="boke" Grid.Row="0" Grid.Column="3"/>
-                <Label Text="0" x:Name="countboke" Grid.Row="1" Grid.Column="3"/>
+                <Label Text="0"  FontAutoScalingEnabled="True" x:Name="boke" Grid.Row="0" Grid.Column="3"/>
+                <Label Text="0"  FontAutoScalingEnabled="True" x:Name="countboke" Grid.Row="1" Grid.Column="3"/>
 
-                <Label Text="0" x:Name="maedesu" Grid.Row="6" Grid.Column="0"/>
-                <Label Text="0" x:Name="maenano" Grid.Row="7" Grid.Column="1"/>
+                <Label Text="0"  FontAutoScalingEnabled="True" x:Name="maedesu" Grid.Row="6" Grid.Column="0"/>
+                <Label Text="0"  FontAutoScalingEnabled="True" x:Name="maenano" Grid.Row="7" Grid.Column="1"/>
 
 
 

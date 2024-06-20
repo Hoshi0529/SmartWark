@@ -299,3 +299,4 @@ C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-maccatalyst\maccat
 C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\SmartWalk.pdb
 C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\SmartWalk.genruntimeconfig.cache
 C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\SmartWalk.dll
+C:\Users\youta\SmartWark\SmartWalk\SmartWalk\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.outputs
